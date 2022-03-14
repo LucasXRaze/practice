@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+
+int main() {
+    int a, b, product;
+    a = 7;
+    b = 1;
+
+ 
+    // Calculating product
+    product = a + b;
+
+    printf("plus = %d", product);
+    
+    product = a - b;
+
+    printf("   minus = %d", product);
+    
+    product = a / b;
+
+    printf("   divided = %d", product);
+    
+    product = a * b;
+
+    printf("   multiply = %d", product);
+    
+    product = a % b;
+
+    printf("  percent = %d", product);
+    
+    return 0;
+}
