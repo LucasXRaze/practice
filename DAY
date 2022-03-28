@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <iostream>
+
+int main()
+{
+        int a;
+        printf(" please input a \n");
+        scanf("%d",&a);
+        if(a==1)
+              std::cout <<"Monday";
+        else if(a==2)
+              std::cout  <<  "Tuesday";
+        else if(a==3)
+              std::cout  <<  "Wednesday";
+        else if(a==4)
+              std::cout  <<  "Thursday";
+        else if(a==5)
+              std::cout  <<  "Friday";
+        else if(a==6)
+              std::cout  <<  "Saturday";
+        else if(a==7)
+              std::cout  <<  "Sunday";
+        else
+              std::cout   <<  "  error  ";
+}       
