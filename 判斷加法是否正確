@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <iostream>
+
+int main()
+{
+    int a,b,c;
+    printf("please input two numers and their total \n");
+    scanf("%d%d",&a,&b,&c);
+    if(c=a+b)
+        printf("correct");
+
+    else
+        printf("error");
+        
+    
+    return 0;
+}
