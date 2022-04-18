@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+#define N 100
+
+int main()
+{
+    int i, a[N]={6,8,6,5,9,5,0,3,4,1};
+    
+    for(i=0;i<N;i++){
+        printf(" %d * %d = %d \n",i,37,i*37);
+    }
+    cout<<"THE END";
+    
+    return 0;
+    
+}
